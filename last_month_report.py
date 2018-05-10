@@ -15,9 +15,9 @@ class TestStringMethods(unittest.TestCase):
 	
 		print ("Passing Credentials")
 		user=driver.find_element_by_id('session_username')
-		user.send_keys('saifali')
+		user.send_keys('###')
 		password=driver.find_element_by_id('session_password')
-		password.send_keys('saifali98')
+		password.send_keys('###')
 		login=driver.find_element_by_xpath('//*[@id="new_session"]/div[3]/div[5]/input[2]')
 		login.click()
 		print ("Login Successfully Done!")
